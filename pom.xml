@@ -226,7 +226,7 @@
                 <version>2.8.0</version>
                 <configuration>
                     <to>
-                        <image>dominicnet3000/${project.artifactId}</image>
+                        <image>jtux/${project.artifactId}</image>
                         <tags>
                             <tag>latest</tag>
                         </tags>
