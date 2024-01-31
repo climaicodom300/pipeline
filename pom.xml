@@ -71,7 +71,6 @@
 		    <groupId>org.apache.logging.log4j</groupId>
 		    <artifactId>log4j</artifactId>
 		    <version>2.22.1</version>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 		    <groupId>org.apache.logging.log4j</groupId>
@@ -106,7 +105,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <failBuildOnCVSS>11</failBuildOnCVSS>
+                    <failBuildOnCVSS>10</failBuildOnCVSS>
                     <!-- Generate all report formats -->
                     <format>ALL</format>
                     <!-- Don't use Nexus Analyzer -->
@@ -168,7 +167,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.2.0</version>
+                <version>4.8.2.0</version>
                 <configuration>
                     <effort>Max</effort>
                     <threshold>Low</threshold>
@@ -195,7 +194,7 @@
                     <dependency>
                         <groupId>com.github.spotbugs</groupId>
                         <artifactId>spotbugs</artifactId>
-                        <version>4.2.1</version>
+                        <version>4.8.3</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -300,7 +299,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.2.0</version>
+                <version>4.8.2.0</version>
                 <configuration>
                     <effort>Max</effort>
                     <threshold>Low</threshold>
